@@ -1,0 +1,196 @@
+body{
+    margin: 0;
+    font-family: arial;
+}
+
+.menu {
+    width: 80%;
+    margin: auto;
+    
+}
+section{
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(images/SharedScreenshot.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.menu-item ul {
+    display: flex;
+    float: left;
+    list-style: none;
+}
+.menu-item ul li {
+    font-size: 15px;
+    font-weight: 700;
+    margin-left: 90px;
+    margin-top: 19px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.headere h1 {
+    font-size: 30px;
+    color: orange;
+    width: 36px;
+}
+.search {
+    display: flex;
+    
+}
+
+#src {
+    padding: 9px;
+    font-size: 22px;
+    border: none;
+    border-radius: 9px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    background: transparent;
+    border: 1px solid orange;
+    margin-left: 41px;
+    margin-top: 19px;
+    cursor: pointer;
+}
+
+.buttons {
+    padding: 12px 27px;
+    background: orange;
+    border: navajowhite;
+    border-radius: 9px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    margin-top: 19px;
+    text-decoration: none;
+}
+
+#src:focus{
+    outline: none;
+}
+  
+.buttons:hover{
+    color: black;
+}
+.tittle {
+    display: flex;
+}
+.shes {
+    display: flex;
+    margin-top: 106px;
+}
+
+.course h1 {
+    font-size: 52px;
+    font-family: 'Times New Roman';
+    color: #fff;
+    margin: 0px;
+}
+
+.course button {
+    padding: 8px 43px;
+    font-size: 18px;
+    border-radius: 7px;
+    border: navajowhite;
+    background: orange;
+    font-weight: 500;
+    margin-top: 21px;
+    cursor: pointer;
+}
+.from {
+    width: 280px;
+    height: 406px;
+    background: linear-gradient(4deg, #0000008c, #000000a6);
+    padding: 8px;
+    padding-right: 28px;
+    border-radius: 16px;
+    margin-left: 162px;
+}
+
+.from button {
+    padding: 9px 70px;
+    font-size: 17px;
+    font-family: arial;
+    font-weight: 600;
+    border: navajowhite;
+    background: orange;
+    border-radius: 7px;
+    width: 17pc;
+    margin: 15px;
+    cursor: pointer;
+}
+.from input {
+    font-size: 15px;
+    padding: 7px;
+    margin: 8px 15px;
+    width: 16pc;
+    border: none;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    font-weight: 600;
+    border-bottom: 1.5px solid #d14f4f;
+    background: transparent;
+}
+.from input:focus{
+   outline: none;
+}
+span.develoment {
+    color: orange;
+}
+ p{
+    color: #fff;
+    font-size: 17px;
+    line-height: 39px;
+    letter-spacing: 1px;
+    margin: 0;
+    cursor: pointer;
+}
+h3 {
+    color: #fff;
+    text-align: center;
+    margin-left: 33px;
+    font-weight: 400;
+    margin-top: 3px;
+}
+span.in {
+    font-family: ariac;
+    text-align: center;
+    color: #fff;
+    margin-left: 104px;
+    font-size: 18px;
+}
+
+.icon {
+    text-align: center;
+    font-size: 32px;
+    margin-left: 37px;
+    margin-top: 8px;
+    
+}
+
+.icon i {
+    color: greenyellow;
+    margin-right: 7px;
+    margin-top: 17px;
+    cursor: pointer;
+}
+input::placeholder{
+    color: #fff;
+    font-family: Arial;
+}
+.white:hover{
+    background: #ffff;;
+}
+.icon i:hover{
+    color:#fff;
+}
+#bg{
+    background-color: #fff;
+    color:orange;
+}
+input, select, textarea{
+    color: #fff;
+}
